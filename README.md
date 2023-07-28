@@ -1,2 +1,3 @@
-# go-vm
-virtual machine.
+# gfmgr
+
+goframe management platform.
