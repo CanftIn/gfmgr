@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	_ "github.com/CanftIn/gfmgr/internal/packed"
+
+	"github.com/gogf/gf/v2/os/gctx"
+
+	"github.com/CanftIn/gfmgr/internal/cmd"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	cmd.Main.Run(gctx.GetInitCtx())
 }
